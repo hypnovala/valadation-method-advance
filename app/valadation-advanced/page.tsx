@@ -127,16 +127,16 @@ export default function ValadationAdvancedPage() {
             <div className="relative mt-8 overflow-hidden rounded-[1.75rem] border border-white/10 bg-black/30 shadow-glow">
               <Image
                 src="/section-two-local.svg"
-                alt="Stylized candle-lit portrait artwork used as a blurred premium section visual."
+                alt="Stylized candle-lit portrait artwork used as a premium section visual."
                 width={1200}
                 height={720}
-                className="h-56 w-full scale-110 object-cover blur-[2px]"
+                className="h-80 w-full object-cover sm:h-96 lg:h-[28rem]"
                 priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#050505]/70 via-transparent to-transparent" />
               <div className="absolute bottom-0 p-5">
                 <p className="text-xs uppercase tracking-[0.3em] text-[#f4df9b]">Section 2 visual</p>
-                <p className="mt-2 text-sm text-[#d7ceba]">Local blurred artwork layer for premium atmosphere and depth.</p>
+                <p className="mt-2 text-sm text-[#d7ceba]">Local artwork layer for premium atmosphere and depth.</p>
               </div>
             </div>
           </div>
