@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 const benefits = [
   'Deepens embodiment work for women who already understand nervous system regulation and somatic pacing.',
@@ -124,17 +123,6 @@ export default function ValadationAdvancedPage() {
             <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
               An elevated path for women whose somatic practice is ready for deeper integration.
             </h2>
-            <div className="relative mt-8 overflow-hidden rounded-[1.75rem] border border-white/10 bg-black/30 shadow-glow">
-              <Image
-                src="/section-two-local.svg"
-                alt="Stylized candle-lit portrait artwork used as a premium section visual."
-                width={1200}
-                height={720}
-                className="h-80 w-full object-cover sm:h-96 lg:h-[28rem]"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#050505]/70 via-transparent to-transparent" />
-            </div>
           </div>
           <div className="grid gap-5">
             {benefits.map((benefit) => (
