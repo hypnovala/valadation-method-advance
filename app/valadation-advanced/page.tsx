@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const benefits = [
   'Deepens embodiment work for women who already understand nervous system regulation and somatic pacing.',
@@ -117,12 +118,27 @@ export default function ValadationAdvancedPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-12">
-        <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="grid items-start gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="space-y-5">
             <p className="text-sm uppercase tracking-[0.35em] text-[#f4df9b]">Why this exists</p>
             <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
               An elevated path for women whose somatic practice is ready for deeper integration.
             </h2>
+            <div className="relative mt-8 overflow-hidden rounded-[1.75rem] border border-white/10 bg-black/30 shadow-glow">
+              <Image
+                src="/section-two-local.svg"
+                alt="Stylized candle-lit portrait artwork used as a blurred premium section visual."
+                width={1200}
+                height={720}
+                className="h-56 w-full scale-110 object-cover blur-[2px]"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#050505]/70 via-transparent to-transparent" />
+              <div className="absolute bottom-0 p-5">
+                <p className="text-xs uppercase tracking-[0.3em] text-[#f4df9b]">Section 2 visual</p>
+                <p className="mt-2 text-sm text-[#d7ceba]">Local blurred artwork layer for premium atmosphere and depth.</p>
+              </div>
+            </div>
           </div>
           <div className="grid gap-5">
             {benefits.map((benefit) => (
