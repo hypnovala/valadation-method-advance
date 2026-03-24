@@ -92,7 +92,7 @@ export default function ValadationAdvancedPage() {
             </div>
 
             <div className="relative">
-              <div className="absolute inset-0 rounded-[2rem] bg-[linear-gradient(135deg,rgba(212,175,55,0.22),rgba(255,255,255,0.03),rgba(212,175,55,0.1))] blur-2xl" />
+              <div className="absolute inset-0 rounded-[2rem] bg-[linear-gradient(135deg,rgba(212,175,55,0.22),rgba(255,255,255,0.03),rgba(212,175,55,0.1))]" />
               <div className="relative rounded-[2rem] border border-[#d4af37]/20 bg-white/5 p-8 shadow-glow backdrop-blur-xl">
                 <p className="text-sm uppercase tracking-[0.35em] text-[#f4df9b]">Purpose & intent</p>
                 <div className="mt-6 space-y-6 text-[#e8dfce]">
