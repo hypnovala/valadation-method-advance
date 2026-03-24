@@ -134,10 +134,6 @@ export default function ValadationAdvancedPage() {
                 priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#050505]/70 via-transparent to-transparent" />
-              <div className="absolute bottom-0 p-5">
-                <p className="text-xs uppercase tracking-[0.3em] text-[#f4df9b]">Section 2 visual</p>
-                <p className="mt-2 text-sm text-[#d7ceba]">Local artwork layer for premium atmosphere and depth.</p>
-              </div>
             </div>
           </div>
           <div className="grid gap-5">
